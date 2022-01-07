@@ -1,2 +1,2 @@
 # Elitedino.github.io
-testing github pagees
+testing github pages
