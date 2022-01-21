@@ -18,12 +18,6 @@ ul{
     color: rgb(214, 90, 49);
 }
 
-.test_bar {
-    overflow: hidden;
-    border: 0px solid #af0000;
-    background-color: #af0000;
-}
-
 .dropbtn {
     background-color: #af0000;
     color: white;
