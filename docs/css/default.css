@@ -17,7 +17,11 @@ ul{
     background-color: rgb(34, 40, 49);
     color: rgb(214, 90, 49);
 }
-
+.big_bar{
+    width: auto;
+    border: 5px solid #af0000;
+    background-color: #af0000;
+}
 .dropbtn {
     background-color: #af0000;
     color: white;
