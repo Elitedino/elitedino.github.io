@@ -47,6 +47,6 @@ ul{
     text-decoration: none;
     display: block;
 }
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: rgb(221, 221, 221);}
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {background-color: #8e3e3e;}
