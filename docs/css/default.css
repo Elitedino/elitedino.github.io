@@ -1,30 +1,26 @@
 body{
-    background-color: rgb(34, 40, 49);
+    background-color: rgb(0, 0, 0);
 }
 h1{
-    background-color: rgb(34, 40, 49);
-    color: rgb(214, 90, 49);
+    color: #19ff00;
 }
 h2{
-    background-color: rgb(34, 40, 49);
-    color: rgb(214, 90, 49);
+    color: #19ff00;
 }
 p{
-    background-color: rgb(34, 40, 49);
-    color: rgb(214, 90, 49);
+    color: #19ff00;
 }
 ul{
-    background-color: rgb(34, 40, 49);
-    color: rgb(214, 90, 49);
+    color: #19ff00;
 }
 .big_bar{
     width: auto;
-    border: 5px solid #d65a31;
+    border: 5px solid #19ff00;
     border-radius: 10px;
-    background-color: #d65a31;
+    background-color: #19ff00;
 }
 .dropbtn {
-    background-color: navy;
+    background-color: #19ff00;
     border-radius: 10px;
     padding: 16px;
     font-size: 16px;
@@ -39,7 +35,7 @@ ul{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: navy;
+    background-color: #19ff00;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -50,6 +46,6 @@ ul{
     text-decoration: none;
     display: block;
 }
-.dropdown-content a:hover {background-color: #d65a31;}
+.dropdown-content a:hover {background-color: #19ff00;}
 .dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #8e3e3e;}
+.dropdown:hover .dropbtn {background-color: #19ff00;}
