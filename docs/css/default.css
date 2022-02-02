@@ -33,12 +33,9 @@ ul{
 .dropdown-content {
     display: none;
     position: absolute;
-<<<<<<< Updated upstream
     background-color: #19ff00;
-=======
     border-radius: 10px;
     background-color: #11aa00;
->>>>>>> Stashed changes
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -49,11 +46,6 @@ ul{
     text-decoration: none;
     display: block;
 }
-<<<<<<< Updated upstream
-.dropdown-content a:hover {background-color: #19ff00;}
-.dropdown:hover .dropdown-content {display: block;}
-.dropdown:hover .dropbtn {background-color: #19ff00;}
-=======
 .dropdown-content a:hover {
     background-color: #11aa00;
 }
@@ -63,4 +55,3 @@ ul{
     border: 2px solid #000000;
     border-radius: 10px;
 }
->>>>>>> Stashed changes
