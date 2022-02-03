@@ -10,15 +10,42 @@ h2{
 p{
     color: #19ff00;
 }
-ul{
+/* ul{
     color: #19ff00;
-}
+} */
 .big_bar{
     width: auto;
     border: 5px solid #19ff00;
     border-radius: 10px;
     background-color: #19ff00;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #19ff00;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: #000000;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 2px solid #000000;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #11aa00;
+}
+/*
 .dropbtn {
     background-color: #19ff00;
     padding: 16px;
