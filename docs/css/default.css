@@ -40,12 +40,10 @@ li a {
   border-radius: 10px;
   border: 2px solid #000000;
 }
-
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #11aa00;
 }
-/*
+
 .dropbtn {
     background-color: #19ff00;
     padding: 16px;
