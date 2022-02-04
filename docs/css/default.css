@@ -2,6 +2,7 @@ body{background-color: #212121; }
 h1{ color: #14FFEC; }
 h2{ color: #14FFEC; }
 p{ color: #14FFEC; }
+li{ color:#14FFEC}
 .big_bar{
     width: auto;
     border: 5px solid #323232;
