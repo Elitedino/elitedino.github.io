@@ -1,51 +1,15 @@
-body{
-    background-color: rgb(0, 0, 0);
-}
-h1{
-    color: #19ff00;
-}
-h2{
-    color: #19ff00;
-}
-p{
-    color: #19ff00;
-}
-/* ul{
-    color: #19ff00;
-} */
+body{background-color: #212121; }
+h1{ color: #0D7377; }
+h2{ color: #0D7377; }
+p{ color: #0D7377; }
 .big_bar{
     width: auto;
-    border: 5px solid #19ff00;
+    border: 5px solid #323232;
     border-radius: 10px;
-    background-color: #19ff00;
+    background-color: #323232;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #19ff00;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  color: #000000;
-  display: block;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  border-radius: 10px;
-  border: 2px solid #000000;
-}
-li a:hover {
-  background-color: #11aa00;
-}
-
 .dropbtn {
-    background-color: #19ff00;
+    background-color: #14FFEC;
     padding: 16px;
     border-radius: 10px;
     border: 2px solid #000000;
@@ -59,7 +23,7 @@ li a:hover {
     display: none;
     position: absolute;
     border-radius: 10px;
-    background-color: #19ff00;
+    background-color: #14FFEC;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -71,11 +35,11 @@ li a:hover {
     display: block;
 }
 .dropdown-content a:hover {
-    background-color: #11aa00;
+    background-color: #0D7377;
     border-radius: 10px;
 }
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {
-    background-color: #11aa00;
+    background-color: #0D7377;
     border-radius: 10px;
 }
