@@ -9,7 +9,8 @@ body{ background-color: var(--firstcolor); }
 h1{ color: var(--thirdcolor); }
 h2{ color: var(--thirdcolor); }
 p{ color: var(--fourthcolor); }
-li{ color: var(--fourthcolor)}
+li{ color: var(--fourthcolor); }
+
 .big_bar{
     width: auto;
     border: 5px solid var(--secondcolor);
