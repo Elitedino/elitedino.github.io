@@ -1,22 +1,23 @@
-/*
-@firstcolor: #212121;
-@secondcolor: #323232;
-@thirdcolor: #0D7377;
-@fourthcolor: #14FFEC;
+:root{
+  --firstcolor: #212121;
+  --secondcolor: #323232;
+  --thirdcolor: #0D7377;
+  --fourthcolor: #14FFEC;
+}
 
-#body{ background-color: @firstcolor; }
-#h1{ color: @thirdcolor; }
-#h2{ color: @thirdcolor; }
-#p{ color: @fourthcolor; }
-#li{ color: @fourthcolor}
+body{ background-color: var(--firstcolor); }
+h1{ color: var(--thirdcolor); }
+h2{ color: var(--thirdcolor); }
+p{ color: var(--fourthcolor); }
+li{ color: var(--fourthcolor)}
 .big_bar{
     width: auto;
-    border: 5px solid @secondcolor;
+    border: 5px solid var(--secondcolor);
     border-radius: 10px;
-    background-color: @secondcolor;
+    background-color: var(--secondcolor);
 }
 .dropbtn {
-    background-color: @fourthcolor;
+    background-color: var(--fourthcolor);
     padding: 16px;
     border-radius: 10px;
     border: 2px solid #000000;
@@ -30,7 +31,7 @@
     display: none;
     position: absolute;
     border-radius: 10px;
-    background-color: @fourthcolor;
+    background-color: var(--fourthcolor);
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -42,11 +43,11 @@
     display: block;
 }
 .dropdown-content a:hover {
-    background-color: @thirdcolor;
+    background-color: var(--thirdcolor);
     border-radius: 10px;
 }
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover .dropbtn {
-    background-color: @thirdcolor;
+    background-color: var(--thirdcolor);
     border-radius: 10px;
 }
