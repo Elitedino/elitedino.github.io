@@ -11,6 +11,8 @@ h2{ color: var(--thirdcolor); }
 p{ color: var(--fourthcolor); }
 li{ color: var(--fourthcolor); }
 
+iframe{ border: 5px solid #0D7377; border-radius: 5px; }
+
 .big_bar{
     width: auto;
     border: 5px solid var(--secondcolor);
