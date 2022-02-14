@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script type = "text/javascript" src = "js/jquery.js"></script>
 </head>
 <body>
   <div class="big_bar">
@@ -20,13 +21,13 @@
     <div class="dropdown">
       <button class="dropbtn">computers</button>
       <div class="dropdown-content">
-        <a href="#">a nothing button</a>
         <a href="pages/magic.html">how computers work</a>
       </div>
     </div>
     <div class="dropdown">
       <button class="dropbtn">Not Computers</button>
       <div class="dropdown-content">
+        <a id="nothingbutton">a nothing button</a>
         <a href="pages/printers.html">3d printers</a>
       </div>
     </div>
@@ -38,6 +39,8 @@
     </div>
     <a class="dropbtn" style="float:right;" href="https://github.com/Elitedino/elitedino.github.io">Site Code</a>
   </div>
+  <!--get a weather report from wttr.in-->
+  <iframe style="float: right;" height="620" width="910" src="https://wttr.in" title="getting a weather report from wttr.in"></iframe>
   <!--basic text for now-->
   <h1>Making a site (this is only a prototype right now)</h1>
   <h2>To explain how various things work</h2>
@@ -64,6 +67,13 @@
     <li>need more ideas</li>
   </ul>
  <!--javascript-->
-  <script src="js/index.js"></script>
+ <script type="text/javascript" src="js/index.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#nothingbutton').bind('click', function( event ){
+        alert('said the button did nothing');
+      });
+    });
+  </script>
 </body>
 </html>
