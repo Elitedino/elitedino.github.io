@@ -40,21 +40,21 @@
     <a class="dropbtn" style="float:right;" href="https://github.com/Elitedino/elitedino.github.io">Site Code</a>
   </div>
   <!--get a weather report from wttr.in-->
-  <iframe style="float: right;" height="620" width="910" src="https://wttr.in" title="getting a weather report from wttr.in"></iframe>
+  <iframe id="wttrframe" style="float: right;" height="620" width="910" src="https://wttr.in" title="getting a weather report from wttr.in"></iframe>
   <!--basic text for now-->
   <h1>Making a site (this is only a prototype right now)</h1>
   <h2>To explain how various things work</h2>
   <p><b>Website TODO:</b></p>
   <ul>
     <li>gather information for pages</li>
-    <li>finish main page</li>
-    <li>get acquainted with js</li>
-    <li>possibly use jquery</li>
+    <li>finish main page (only need to add a few things)</li>
     <li>make an actual format for pages to be written</li>
 <!--<li></li>-->
   </ul>
   <p><b>finished TODO</b></p>
   <ul>
+    <li><s>get acquainted with js</s></li>
+    <li><s>use jquery</s></li>
     <li><s>figure out css</s>(kinda)</li>
     <li><s>add css to seperate pages</s></li>
 <!--<li><s></s></li>-->
@@ -71,7 +71,8 @@
   <script type="text/javascript">
     $(document).ready(function() {
       $('#nothingbutton').bind('click', function( event ){
-        alert('said the button did nothing');
+        $('#wttrframe').toggle(1000);
+        console.log("toggled wttr frame");
       });
     });
   </script>
