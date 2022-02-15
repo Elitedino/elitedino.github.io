@@ -2,7 +2,10 @@
 <!--source code stuff-->
 <html lang="en">
 <head>
-    <!--sets the title of the site and calls for the css stylesheet-->
+    <!--
+    sets the title of the site and calls for the css stylesheet
+    also calls for jquery and makes it work
+    -->
     <title>site prototype one</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -38,11 +41,15 @@
       </div>
     </div>
     <a class="dropbtn" style="float:right;" href="https://github.com/Elitedino/elitedino.github.io">Site Code</a>
+    <a class="dropbtn" style="float:right;" href="elitedino.github.io">main page</a>
   </div>
   <!--get a weather report from wttr.in-->
   <iframe id="wttrframe" style="float: right;" height="620" width="910" src="https://wttr.in" title="getting a weather report from wttr.in"></iframe>
+  <!--I should add a clock
+  <p id="clock">if your seeing this the clock didn't work</p>
+  -->
   <!--basic text for now-->
-  <h1>Making a site (this is only a prototype right now)</h1>
+  <h1>Making a site<br>(this is only a prototype right now)</h1>
   <h2>To explain how various things work</h2>
   <p><b>Website TODO:</b></p>
   <ul>
@@ -71,7 +78,7 @@
   <script type="text/javascript">
     $(document).ready(function() {
       $('#nothingbutton').bind('click', function( event ){
-        $('#wttrframe').toggle(1000);
+        $('#wttrframe').fadeToggle(1000);
         console.log("toggled wttr frame");
       });
     });
