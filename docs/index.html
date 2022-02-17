@@ -69,19 +69,20 @@
       <script type="text/javascript">
         $(document).ready(function() {
           var themenum = 0;
-          $('#themechangebutton').bind('click', function( event ){
-            switch(themenum) {
-              case 0:
-                $('html').css({'--firstcolor':'#252525','--secondcolor':'#414141','--thirdcolor':'#AF0404','--fourthcolor':'#FF0000'});
-                break;
-              case 1:
-                $('html').css({'--firstcolor':'#252525','--secondcolor':'#414141','--thirdcolor':'#AF0404','--fourthcolor':'#FF0000'});
-                break;
-              case 2:
-              themenum
-              default:
-                // code block
+          function themechange(){
+            if(themenum==0){
+              $('html').css({'--firstcolor':'#212121','--secondcolor':'#323232','--thirdcolor':'#0D7377','--fourthcolor':'#14FFEC'});
+            }else if(themenum==1){
+              $('html').css({'--firstcolor':'#252525','--secondcolor':'#414141','--thirdcolor':'#AF0404','--fourthcolor':'#FF0000'});
             }
+          }
+          $('#themechangebutton').bind('click', function( event ){
+            themenum = themenum + 1
+            console.log(themenum)
+            if(themenum>1){
+              themenum=0
+            }
+            themechange()
           });
           $('#weathertogglebutton').bind('click', function( event ){
             $('#wttrframe').fadeToggle(1000);
