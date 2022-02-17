@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--source code stuff-->
 <html lang="en">
-<head>
+  <head>
     <!--
     sets the title of the site and calls for the css stylesheet
     also calls for jquery and makes it work
@@ -11,60 +11,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <script type = "text/javascript" src = "js/jquery.js"></script>
-</head>
-<body>
-  <div class="big_bar">
-    <div class="dropdown">
-      <button class="dropbtn">Websites</button>
-      <div class="dropdown-content">
-        <a href="pages/scam.html">Scam Sites</a>
-        <a href="pages/awesome.html">Github Awesome</a>
+  </head>
+  <body>
+    <div class="big_bar">
+      <div class="dropdown">
+        <button class="dropbtn">Websites</button>
+        <div class="dropdown-content">
+          <a href="pages/scam.html">Scam Sites</a>
+          <a href="pages/awesome.html">Github Awesome</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">computers</button>
+        <div class="dropdown-content">
+          <a href="pages/magic.html">how computers work</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Not Computers</button>
+        <div class="dropdown-content">
+          <a id="nothingbutton">a nothing button</a>
+          <a href="pages/printers.html">3d printers</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">history</button>
+        <div class="dropdown-content">
+          <a href="pages/idiot.html">you a  re an idiot</a>
+        </div>
+      </div>
+      <div class="rightsidebuttons">
+        <div class="dropdown">
+          <button class="dropbtn">Control panel</button>
+          <div class="dropdown-content">
+            <a id="themechangebutton">theme change</a>
+            <a id="weathertogglebutton">toggle weather</a>
+          </div>
+        </div>
+        <a class="dropbtn" href="#">main page</a>
+        <a class="dropbtn" href="pages/progress.html">Progress</a>
+        <a class="dropbtn" href="https://github.com/Elitedino/elitedino.github.io">Site Code</a>
       </div>
     </div>
-    <div class="dropdown">
-      <button class="dropbtn">computers</button>
-      <div class="dropdown-content">
-        <a href="pages/magic.html">how computers work</a>
-      </div>
+    <div class="stopcolliding">
+      <!--get a weather report from wttr.in-->
+      <iframe id="wttrframe" style="float: right;" height="620" width="910" src="https://wttr.in" title="weather report from wttr.in"></iframe>
+      <!-- make a frame for text -->
+      <article class="mainpagearticle">
+      <!--basic text for now-->
+        <h1>Making a site<br>(only a prototype right now)</h1>
+        <h2>To explain how various things work</h2>
+      <!-- end article frame -->
+      </article>
     </div>
-    <div class="dropdown">
-      <button class="dropbtn">Not Computers</button>
-      <div class="dropdown-content">
-        <a id="nothingbutton">a nothing button</a>
-        <a href="pages/printers.html">3d printers</a>
-      </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropbtn">history</button>
-      <div class="dropdown-content">
-        <a href="pages/idiot.html">you are an idiot</a>
-      </div>
-    </div>
-    <a class="dropbtn" style="float:right;" href="https://github.com/Elitedino/elitedino.github.io">Site Code</a>
-    <a class="dropbtn" style="float:right;" href="#">main page</a>
-    <a class="dropbtn" style="float:right;" href="pages/progress.html">Progress</a>
-  </div>
-  <!--get a weather report from wttr.in-->
-  <iframe id="wttrframe" style="float: right;" height="620" width="910" src="https://wttr.in" title="getting a weather report from wttr.in"></iframe>
-  <!--I should add a clock
-  <p id="clock">if your seeing this the clock didn't work</p>
-  -->
-  <!--basic text for now-->
-  <h1>Making a site<br>(this is only a prototype right now)</h1>
-  <h2>To explain how various things work</h2>
- <!--javascript-->
- <script type="text/javascript" src="js/index.js"></script>
-  <script type="text/javascript">
-    $(document).ready(function() {
-      $('#nothingbutton').bind('click', function( event ){
-        $('#nothingbutton').text("I think I like jquery");
-        $('html').css({'--firstcolor':'#252525','--secondcolor':'#414141','--thirdcolor':'#AF0404','--fourthcolor':'#FF0000'})
-        /*
-        $('#wttrframe').fadeToggle(1000);
-        console.log("toggled wttr frame");
-        */
-      });
-    });
-  </script>
-</body>
+    <!--javascript/jquery-->
+    <script type="text/javascript" src="js/index.js"></script>
+      <script type="text/javascript">
+        $(document).ready(function() {
+          var themenum = 0;
+          $('#themechangebutton').bind('click', function( event ){
+            switch(themenum) {
+              case 0:
+                $('html').css({'--firstcolor':'#252525','--secondcolor':'#414141','--thirdcolor':'#AF0404','--fourthcolor':'#FF0000'});
+                break;
+              case 1:
+                $('html').css({'--firstcolor':'#252525','--secondcolor':'#414141','--thirdcolor':'#AF0404','--fourthcolor':'#FF0000'});
+                break;
+              case 2:
+              themenum
+              default:
+                // code block
+            }
+          });
+          $('#weathertogglebutton').bind('click', function( event ){
+            $('#wttrframe').fadeToggle(1000);
+            console.log("toggled wttr frame");
+          });
+        });
+    </script>
+  </body>
 </html>

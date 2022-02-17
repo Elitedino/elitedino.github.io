@@ -3,6 +3,7 @@
   --secondcolor: #323232;
   --thirdcolor: #0D7377;
   --fourthcolor: #14FFEC;
+  font-family:'Courier New';
 }
 
 body{ background-color: var(--firstcolor); }
@@ -11,8 +12,25 @@ h2{ color: var(--thirdcolor); }
 p{ color: var(--fourthcolor); }
 li{ color: var(--fourthcolor); }
 
-iframe{ border: 5px solid var(--thirdcolor); border-radius: 5px; }
-
+.stopcolliding{
+    margin: 0.5rem;
+}
+iframe{ 
+    border: 5px solid var(--thirdcolor); 
+    border-radius: 5px;
+}
+.mainpagearticle{
+    text-align: center;
+    max-width: fit-content;
+    max-height: fit-content;
+    padding: 0.5rem;
+    border: 5px solid var(--thirdcolor);
+    border-radius: 5px;
+    background-color: var(--secondcolor);
+}
+.rightsidebuttons{
+    float:right;
+}
 .big_bar{
     width: auto;
     border: 5px solid var(--secondcolor);

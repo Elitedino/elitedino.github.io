@@ -1,4 +1,4 @@
-console.log('hello, javascript runs');
+console.log('hello, external javascript runs');
 /*
 function clocktime(){
     const curtime = new Date();
