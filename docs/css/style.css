@@ -6,15 +6,15 @@
   --fontvar:'Courier New';
 }
 
-body{ font-family: --fontvar; background-color: var(--firstcolor); }
-h1{ font-family: --fontvar; color: var(--thirdcolor); }
-h2{ font-family: --fontvar; color: var(--thirdcolor); }
-p{ font-family: --fontvar; color: var(--fourthcolor); }
-li{ font-family: --fontvar; color: var(--fourthcolor); }
+body{ font-family: var(--fontvar); background-color: var(--firstcolor); }
+h1{ font-family: var(--fontvar); color: var(--thirdcolor); }
+h2{ font-family: var(--fontvar); color: var(--thirdcolor); }
+p{ font-family: var(--fontvar); color: var(--fourthcolor); }
+li{ font-family: var(--fontvar); color: var(--fourthcolor); }
 
 .stopcolliding{
     margin: 0.5rem;
-    font-family: --fontvar;
+    font-family: var(--fontvar);
 }
 iframe{ 
     border: 5px solid var(--thirdcolor); 
@@ -28,7 +28,7 @@ iframe{
     border: 5px solid var(--thirdcolor);
     border-radius: 5px;
     background-color: var(--secondcolor);
-    font-family: --fontvar;
+    font-family: var(--fontvar);
 }
 .rightsidebuttons{
     float:right;
@@ -38,7 +38,7 @@ iframe{
     border: 5px solid var(--secondcolor);
     border-radius: 10px;
     background-color: var(--secondcolor);
-    font-family: --fontvar;
+    font-family: var(--fontvar);
 }
 .dropbtn {
     background-color: var(--fourthcolor);
