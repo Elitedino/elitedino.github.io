@@ -3,17 +3,18 @@
   --secondcolor: #323232;
   --thirdcolor: #0D7377;
   --fourthcolor: #14FFEC;
-  font-family:'Courier New';
+  --fontvar:'Courier New';
 }
 
-body{ background-color: var(--firstcolor); }
-h1{ color: var(--thirdcolor); }
-h2{ color: var(--thirdcolor); }
-p{ color: var(--fourthcolor); }
-li{ color: var(--fourthcolor); }
+body{ font-family: --fontvar; background-color: var(--firstcolor); }
+h1{ font-family: --fontvar; color: var(--thirdcolor); }
+h2{ font-family: --fontvar; color: var(--thirdcolor); }
+p{ font-family: --fontvar; color: var(--fourthcolor); }
+li{ font-family: --fontvar; color: var(--fourthcolor); }
 
 .stopcolliding{
     margin: 0.5rem;
+    font-family: --fontvar;
 }
 iframe{ 
     border: 5px solid var(--thirdcolor); 
@@ -27,6 +28,7 @@ iframe{
     border: 5px solid var(--thirdcolor);
     border-radius: 5px;
     background-color: var(--secondcolor);
+    font-family: --fontvar;
 }
 .rightsidebuttons{
     float:right;
@@ -36,6 +38,7 @@ iframe{
     border: 5px solid var(--secondcolor);
     border-radius: 10px;
     background-color: var(--secondcolor);
+    font-family: --fontvar;
 }
 .dropbtn {
     background-color: var(--fourthcolor);
