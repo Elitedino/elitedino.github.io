@@ -1,1 +1,1 @@
-> unformatted writing for topics
+> unformatted writing for github awesome lists

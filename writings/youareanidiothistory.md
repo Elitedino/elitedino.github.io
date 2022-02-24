@@ -1,1 +1,1 @@
-> unformatted writing for topics
+> unformatted writing for the old site you are an idiot.org
