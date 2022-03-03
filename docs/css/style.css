@@ -3,7 +3,7 @@
   --secondcolor: #323232;
   --thirdcolor: #0D7377;
   --fourthcolor: #14FFEC;
-  font-family: Georgia, 'Times New Roman', Times, serif
+  --fontvar: Georgia, 'Times New Roman', Times, serif
 }
 
 body{ font-family: var(--fontvar); background-color: var(--firstcolor); }
