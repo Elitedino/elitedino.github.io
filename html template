@@ -1,54 +1,40 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title></title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
-  <div class="big_bar">
-    <div class="dropdown">
-      <button class="dropbtn">Internet</button>
-      <div class="dropdown-content">
-        <a href="pages/scam.html">Scam Sites</a>
-        <a href="pages/awesome.html">Github Awesome Lists</a>
-        <a href="pages/devzat.html">Devzat Chat</a>
-      </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropbtn">computers</button>
-      <div class="dropdown-content">
-        <a href="pages/magic.html">how computers work</a>
-      </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropbtn">Not Computers</button>
-      <div class="dropdown-content">
-        <a id="nothingbutton">a nothing button</a>
-        <a href="pages/printers.html">3d printers</a>
-      </div>
-    </div>
-    <div class="dropdown">
-      <button class="dropbtn">history</button>
-      <div class="dropdown-content">
-        <a href="pages/idiot.html">you are an idiot</a>
-      </div>
-    </div>
-    <div class="rightsidebuttons">
-      <div class="dropdown">
-        <button class="dropbtn">Control panel</button>
-        <div class="dropdown-content">
-          <a id="themechangebutton">theme change</a>
-        </div>
-      </div>
-      <a class="dropbtn" href="elitedino.github.io">main page</a>
-      <a class="dropbtn" href="pages/progress.html">Progress</a>
-      <a class="dropbtn" href="https://github.com/Elitedino/elitedino.github.io">Site Code</a>
+<div class="big_bar">
+  <div class="dropdown">
+    <button class="dropbtn">Internet</button>
+    <div class="dropdown-content">
+      <a href="pages/scam.html">Scam Sites</a>
+      <a href="pages/awesome.html">Github Awesome Lists</a>
+      <a href="pages/devzat.html">Devzat Chat</a>
     </div>
   </div>
-  <p></p>
-  <script src="../js/index.js"></script>
-</body>
-</html>
+  <div class="dropdown">
+    <button class="dropbtn">computers</button>
+    <div class="dropdown-content">
+      <a href="pages/magic.html">how computers work</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">Not Computers</button>
+    <div class="dropdown-content">
+      <a id="nothingbutton">a nothing button</a>
+      <a href="pages/printers.html">3d printers</a>
+    </div>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn">history</button>
+    <div class="dropdown-content">
+      <a href="pages/idiot.html">you are an idiot</a>
+    </div>
+  </div>
+  <div class="rightsidebuttons">
+    <div class="dropdown">
+      <button class="dropbtn">Control panel</button>
+      <div class="dropdown-content">
+        <a id="themechangebutton">theme change</a>
+      </div>
+    </div>
+    <!-- <a class="dropbtn" href="elitedino.github.io">main page</a> -->
+    <a class="dropbtn" href="pages/progress.html">Progress</a>
+    <a class="dropbtn" href="https://github.com/Elitedino/elitedino.github.io">Site Code</a>
+  </div>
+</div>

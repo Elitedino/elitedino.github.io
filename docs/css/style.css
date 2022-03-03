@@ -1,8 +1,8 @@
 :root{
   --firstcolor: #212121;
   --secondcolor: #323232;
-  --thirdcolor: #0D7377;
-  --fourthcolor: #14FFEC;
+  --thirdcolor: #01595c;
+  --fourthcolor: #027c72;
   --fontvar: Georgia, 'Times New Roman', Times, serif
 }
 
@@ -10,12 +10,11 @@ body{ font-family: var(--fontvar); background-color: var(--firstcolor); }
 h1{ font-family: var(--fontvar); color: var(--thirdcolor); }
 h2{ font-family: var(--fontvar); color: var(--thirdcolor); }
 p{ font-family: var(--fontvar); color: var(--fourthcolor); }
-li{ font-family: var(--fontvar); color: var(--fourthcolor); }
-
+li{ font-family: var(--fontvar) ; color: var(--fourthcolor); }
+hr{ color: var(--firstcolor); background-color: var(--firstcolor);}
 blockquote {
     margin: 0;
 }
-
 blockquote p {
     padding: 15px;
     background: var(--secondcolor);
