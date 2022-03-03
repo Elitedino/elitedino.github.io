@@ -12,6 +12,15 @@ h2{ font-family: var(--fontvar); color: var(--thirdcolor); }
 p{ font-family: var(--fontvar); color: var(--fourthcolor); }
 li{ font-family: var(--fontvar); color: var(--fourthcolor); }
 
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: var(--secondcolor);
+    border-radius: 5px;
+}
 .stopcolliding{
     margin: 0.5rem;
     font-family: var(--fontvar);
