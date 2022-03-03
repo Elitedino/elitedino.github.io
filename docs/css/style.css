@@ -5,7 +5,6 @@
   --fourthcolor: #027c72;
   --fontvar: Georgia, 'Times New Roman', Times, serif
 }
-
 body{ font-family: var(--fontvar); background-color: var(--firstcolor); }
 h1{ font-family: var(--fontvar); color: var(--thirdcolor); }
 h2{ font-family: var(--fontvar); color: var(--thirdcolor); }
