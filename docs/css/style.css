@@ -11,7 +11,6 @@ h1{ font-family: var(--fontvar); color: var(--thirdcolor); }
 h2{ font-family: var(--fontvar); color: var(--thirdcolor); }
 p{ font-family: var(--fontvar); color: var(--fourthcolor); }
 li{ font-family: var(--fontvar) ; color: var(--fourthcolor); }
-hr{ color: var(--firstcolor); background-color: var(--firstcolor);}
 blockquote {
     margin: 0;
 }
