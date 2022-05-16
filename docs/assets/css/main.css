@@ -1880,7 +1880,7 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			position: relative;
-			text-shadow: 1px 1px 0 #ab0000;
+			text-shadow: 1px 1px 0 #775f5f;
 			background-color: #26272c;
 			background-image: url("images/bg03.png"), url("images/bg04.png"), url("images/bg02.png");
 			background-repeat: no-repeat, no-repeat, repeat;
