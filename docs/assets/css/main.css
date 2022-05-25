@@ -118,7 +118,7 @@ input, select, textarea {
 		text-transform: uppercase;
 		font-weight: 800;
 		letter-spacing: 0.04em;
-		color: #404248;
+		color: #2a53ce;
 		margin: 0 0 1em 0;
 	}
 
@@ -1854,7 +1854,7 @@ input, select, textarea {
 	}
 
 	#main-wrapper {
-		background: #fff;
+		background: rgb(68, 68, 68);
 	}
 
 	#footer-wrapper {
@@ -1880,7 +1880,7 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			position: relative;
-			text-shadow: 1px 1px 0 #775f5f;
+			/* text-shadow: 1px 1px 0 #775f5f; */
 			background-color: #26272c;
 			background-image: url("images/bg03.png"), url("images/bg04.png"), url("images/bg02.png");
 			background-repeat: no-repeat, no-repeat, repeat;
