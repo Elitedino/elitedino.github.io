@@ -1822,6 +1822,7 @@ input, select, textarea {
 			}
 
 		#banner p {
+			text-align: center;
 			color: #fff;
 			color: rgba(255, 255, 255, 0.75);
 			font-size: 1em;
